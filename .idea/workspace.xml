@@ -1,41 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/find_route1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/migrations/0002_alter_city_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/migrations/0003_alter_city_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/templates/cities/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/templates/cities/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/templates/cities/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/templates/cities/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/templates/cities/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cities/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/find_route1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/find_route1/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/find_route1/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/find_route1/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/find_route1/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="cities, add, create, delete, update, paginate">
+      <change afterPath="$PROJECT_DIR$/trains/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities/templates/cities/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cities/templates/cities/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cities/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_route1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_route1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +94,17 @@
       <workItem from="1634556263427" duration="154000" />
       <workItem from="1634556803273" duration="14000" />
       <workItem from="1634557375212" duration="2317000" />
-      <workItem from="1634637755711" duration="18879000" />
+      <workItem from="1634637755711" duration="26685000" />
+      <workItem from="1634723993463" duration="3147000" />
     </task>
+    <task id="LOCAL-00001" summary="cities, add, create, delete, update, paginate">
+      <created>1634661147473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634661147473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +120,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cities, add, create, delete, update, paginate" />
+    <option name="LAST_COMMIT_MESSAGE" value="cities, add, create, delete, update, paginate" />
   </component>
 </project>

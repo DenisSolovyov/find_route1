@@ -19,6 +19,6 @@ from cities.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cities/', include(('cities.urls', 'cities'), namespace='cities')),
+    path('cities/', include(('cities.urls', 'cities'))),
     path('', home, name='home')
 ]
