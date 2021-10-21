@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="cities, add, create, delete, update, paginate">
-      <change afterPath="$PROJECT_DIR$/trains/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/views.py" afterDir="false" />
+    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="complete paginate, alerts; startapp trains">
+      <change afterPath="$PROJECT_DIR$/trains/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/templates/trains/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/templates/trains/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/templates/trains/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/templates/trains/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/templates/trains/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trains/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cities/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cities/templates/cities/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cities/templates/cities/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cities/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cities/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_route1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_route1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_route1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_route1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trains/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/trains/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trains/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trains/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trains/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trains/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +31,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zg2bTchNIFuaZDkLUmHbFBVhHd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,10 +59,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/trains" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fujitsu\PycharmProjects\find_route1\trains" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Fujitsu\PycharmProjects\find_route1\templates" />
       <recent name="C:\Users\Fujitsu\PycharmProjects\find_route1" />
@@ -95,7 +110,7 @@
       <workItem from="1634556803273" duration="14000" />
       <workItem from="1634557375212" duration="2317000" />
       <workItem from="1634637755711" duration="26685000" />
-      <workItem from="1634723993463" duration="3147000" />
+      <workItem from="1634723993463" duration="18495000" />
     </task>
     <task id="LOCAL-00001" summary="cities, add, create, delete, update, paginate">
       <created>1634661147473</created>
@@ -104,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634661147473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete paginate, alerts; startapp trains">
+      <created>1634727228112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634727228112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cities, add, create, delete, update, paginate" />
-    <option name="LAST_COMMIT_MESSAGE" value="cities, add, create, delete, update, paginate" />
+    <MESSAGE value="complete paginate, alerts; startapp trains" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete paginate, alerts; startapp trains" />
   </component>
 </project>
