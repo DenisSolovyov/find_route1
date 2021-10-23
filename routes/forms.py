@@ -13,17 +13,15 @@ class RouteForm(forms.Form):
     to_city = forms.ModelChoiceField(label='Куда', queryset=City.objects.all(),
                                      widget=forms.Select(attrs={"class": 'form-control js-example-basic-single'}))
 
-    traveling = forms.IntegerField(label='Время в пути',
-                                   widget=forms.NumberInput(attrs=
-                                                            {"class": 'form-control',
-                                                             'placeholder': 'Время в пути'}))
     cities = forms.ModelMultipleChoiceField(
         label='Через города', queryset=City.objects.all(),
         required=False,
         widget=forms.SelectMultiple(attrs={"class": 'form-control js-example-basic-multiple'}))
 
-    name = forms.CharField(label='Номер поезда', widget=forms.TextInput(
-        attrs={"class": 'form-control', 'placeholder': 'Введите номер поезда'}))
+    traveling_time = forms.IntegerField(label='Время в пути',
+                                        widget=forms.NumberInput(attrs=
+                                                                 {"class": 'form-control',
+                                                                  'placeholder': 'Время в пути'}))
 
     # class Meta:
     #     model = Train
