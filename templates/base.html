@@ -2,6 +2,7 @@
 {% url 'cities:create' as cities_create_url %}
 {% url 'trains:home' as trains_home_url %}
 {% url 'trains:create' as trains_create_url %}
+{% url 'list' as route_list %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -34,6 +35,9 @@
                     <a class="nav-link {% if request.path == trains_home_url %}active {% endif %}"
                        href="{% url 'trains:home' %}">Поезда</a>
                 </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="{% url 'list' %}">Маршруты</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {% if request.path == cities_create_url or request.path == trains_create_url %} active {% endif %}"
                        href="#" id="navbarDropdown" role="button"
@@ -54,9 +58,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link">Disabled</a>
-                </li>
+
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
