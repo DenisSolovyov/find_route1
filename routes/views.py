@@ -93,3 +93,6 @@ class RouteDeleteView(LoginRequiredMixin, DeleteView):
     def get(self, request, *args, **kwargs):
         messages.success(request, 'Маршрут успешно удален')
         return self.post(request, *args, **kwargs)
+
+
+

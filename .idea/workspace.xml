@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="select_related, find_route complete, logging">
-      <change afterPath="$PROJECT_DIR$/routes/templates/routes/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/templates/routes/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/templates/routes/list.html" afterDir="false" />
+    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="routes complete, accounts startapp">
+      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/register_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities/templates/cities/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cities/templates/cities/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cities/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_route1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_route1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_route1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_route1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/templates/routes/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/routes/templates/routes/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/templates/routes/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/routes/templates/routes/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trains/templates/trains/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/trains/templates/trains/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trains/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trains/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,12 +49,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1zg2bTchNIFuaZDkLUmHbFBVhHd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -67,7 +76,29 @@
       <recent name="C:\Users\Fujitsu\PycharmProjects\find_route1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.find_route1">
+    <configuration name="fibbonachi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="find_route1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibbonachi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="find_route1" type="Python.DjangoServer" factoryName="Django server">
       <module name="find_route1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +123,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fibbonachi" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,7 +143,12 @@
       <workItem from="1634557375212" duration="2317000" />
       <workItem from="1634637755711" duration="26685000" />
       <workItem from="1634723993463" duration="54852000" />
-      <workItem from="1635099158890" duration="1291000" />
+      <workItem from="1635099158890" duration="7516000" />
+      <workItem from="1635335942791" duration="2537000" />
+      <workItem from="1635445463934" duration="3601000" />
+      <workItem from="1635866087175" duration="1917000" />
+      <workItem from="1636230256686" duration="1283000" />
+      <workItem from="1637048062588" duration="5575000" />
     </task>
     <task id="LOCAL-00001" summary="cities, add, create, delete, update, paginate">
       <created>1634661147473</created>
@@ -144,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635002642849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="routes complete, accounts startapp">
+      <created>1635101656923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635101656923</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,11 +211,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="cities, add, create, delete, update, paginate" />
     <MESSAGE value="complete paginate, alerts; startapp trains" />
     <MESSAGE value="complete navbar, trains, startapp route" />
     <MESSAGE value="added select2 in route form (base.html)" />
     <MESSAGE value="select_related, find_route complete, logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="select_related, find_route complete, logging" />
+    <MESSAGE value="routes complete, accounts startapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="routes complete, accounts startapp" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/find_route1$fibbonachi.coverage" NAME="fibbonachi Coverage Results" MODIFIED="1637137783752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
