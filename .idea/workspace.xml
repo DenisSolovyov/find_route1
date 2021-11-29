@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="routes complete, accounts startapp">
-      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/register_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+    <list default="true" id="986cc21f-1273-4023-a5b4-f2be65e41c74" name="Changes" comment="login, registration,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cities/templates/cities/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cities/templates/cities/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cities/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cities/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_route1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_route1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_route1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_route1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/templates/routes/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/routes/templates/routes/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trains/templates/trains/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/trains/templates/trains/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trains/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trains/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +132,8 @@
       <workItem from="1635445463934" duration="3601000" />
       <workItem from="1635866087175" duration="1917000" />
       <workItem from="1636230256686" duration="1283000" />
-      <workItem from="1637048062588" duration="5575000" />
+      <workItem from="1637048062588" duration="6102000" />
+      <workItem from="1637437450624" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="cities, add, create, delete, update, paginate">
       <created>1634661147473</created>
@@ -192,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635101656923</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="login, registration,">
+      <created>1637141541376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637141541376</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +210,8 @@
     <MESSAGE value="added select2 in route form (base.html)" />
     <MESSAGE value="select_related, find_route complete, logging" />
     <MESSAGE value="routes complete, accounts startapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="routes complete, accounts startapp" />
+    <MESSAGE value="login, registration," />
+    <option name="LAST_COMMIT_MESSAGE" value="login, registration," />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/find_route1$fibbonachi.coverage" NAME="fibbonachi Coverage Results" MODIFIED="1637137783752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
